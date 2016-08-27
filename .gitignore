@@ -1,0 +1,57 @@
+*.DS_Store
+
+# Android
+libs/*javadoc*
+libs/*sources*
+gen/*
+local.properties
+out/*
+bin/*
+lint.xml
+classes/*
+*.log
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Maven
+gen-external-apklibs/*
+target/*
+pom.xml.releaseBackup
+release.properties
+tmp/*
+
+# Eclipse
+.settings/*
+*.userlibraries
+.classpath
+.project
+
+# Android Studio
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+build/
+
+# Crashlytics
+com_crashlytics_export_strings.xml
+crashlytics-build.properties
